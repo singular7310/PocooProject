@@ -11,6 +11,22 @@
 		FB5CFC271D813A6B00B62608 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5CFC261D813A6B00B62608 /* main.m */; };
 		FB5CFC2A1D813A6B00B62608 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5CFC291D813A6B00B62608 /* AppDelegate.m */; };
 		FB5CFC321D813A6B00B62608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5CFC311D813A6B00B62608 /* Assets.xcassets */; };
+		FB7A4F821D81495A00CABC1F /* POBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7A4F811D81495A00CABC1F /* POBaseViewController.m */; };
+		FB7A4F891D814A9A00CABC1F /* OWColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7A4F881D814A9A00CABC1F /* OWColor.m */; };
+		FB7A4F8C1D814AE400CABC1F /* OWMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7A4F8B1D814AE400CABC1F /* OWMessageView.m */; };
+		FB7A4F911D814B2500CABC1F /* KLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7A4F8E1D814B2500CABC1F /* KLineView.m */; };
+		FB7A4F921D814B2500CABC1F /* KSingleLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7A4F901D814B2500CABC1F /* KSingleLineView.m */; };
+		FB7A4F9A1D814C2800CABC1F /* POLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7A4F981D814C2800CABC1F /* POLoginViewController.m */; };
+		FB7A4F9B1D814C2800CABC1F /* POLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB7A4F991D814C2800CABC1F /* POLoginViewController.xib */; };
+		FB7A4F9E1D8152D000CABC1F /* POBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7A4F9D1D8152D000CABC1F /* POBaseNavViewController.m */; };
+		FB7A4FAC1D815C1800CABC1F /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7A4FA61D815C1800CABC1F /* libWeChatSDK.a */; };
+		FB7A4FAD1D815C1800CABC1F /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB7A4FA71D815C1800CABC1F /* read_me.txt */; };
+		FB7A4FAE1D815C1800CABC1F /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB7A4FA81D815C1800CABC1F /* README.txt */; };
+		FB7A4FB01D815C4100CABC1F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7A4FAF1D815C4100CABC1F /* CoreTelephony.framework */; };
+		FB7A4FB21D815C5900CABC1F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7A4FB11D815C5900CABC1F /* SystemConfiguration.framework */; };
+		FB7A4FB41D815C7000CABC1F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7A4FB31D815C7000CABC1F /* libsqlite3.0.tbd */; };
+		FB7A4FB61D815C8000CABC1F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7A4FB51D815C8000CABC1F /* libz.tbd */; };
+		FB7A4FB81D815C8E00CABC1F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7A4FB71D815C8E00CABC1F /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +40,33 @@
 		FB5CFC311D813A6B00B62608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB5CFC361D813A6B00B62608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5CFC3D1D813B1000B62608 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FB7A4F801D81495A00CABC1F /* POBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POBaseViewController.h; sourceTree = "<group>"; };
+		FB7A4F811D81495A00CABC1F /* POBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POBaseViewController.m; sourceTree = "<group>"; };
+		FB7A4F841D8149E900CABC1F /* General.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = General.h; sourceTree = "<group>"; };
+		FB7A4F871D814A9A00CABC1F /* OWColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWColor.h; sourceTree = "<group>"; };
+		FB7A4F881D814A9A00CABC1F /* OWColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWColor.m; sourceTree = "<group>"; };
+		FB7A4F8A1D814AE400CABC1F /* OWMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWMessageView.h; sourceTree = "<group>"; };
+		FB7A4F8B1D814AE400CABC1F /* OWMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWMessageView.m; sourceTree = "<group>"; };
+		FB7A4F8D1D814B2500CABC1F /* KLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLineView.h; sourceTree = "<group>"; };
+		FB7A4F8E1D814B2500CABC1F /* KLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLineView.m; sourceTree = "<group>"; };
+		FB7A4F8F1D814B2500CABC1F /* KSingleLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSingleLineView.h; sourceTree = "<group>"; };
+		FB7A4F901D814B2500CABC1F /* KSingleLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSingleLineView.m; sourceTree = "<group>"; };
+		FB7A4F971D814C2800CABC1F /* POLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POLoginViewController.h; sourceTree = "<group>"; };
+		FB7A4F981D814C2800CABC1F /* POLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POLoginViewController.m; sourceTree = "<group>"; };
+		FB7A4F991D814C2800CABC1F /* POLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = POLoginViewController.xib; sourceTree = "<group>"; };
+		FB7A4F9C1D8152D000CABC1F /* POBaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POBaseNavViewController.h; sourceTree = "<group>"; };
+		FB7A4F9D1D8152D000CABC1F /* POBaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POBaseNavViewController.m; sourceTree = "<group>"; };
+		FB7A4FA61D815C1800CABC1F /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		FB7A4FA71D815C1800CABC1F /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		FB7A4FA81D815C1800CABC1F /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		FB7A4FA91D815C1800CABC1F /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		FB7A4FAA1D815C1800CABC1F /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		FB7A4FAB1D815C1800CABC1F /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		FB7A4FAF1D815C4100CABC1F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		FB7A4FB11D815C5900CABC1F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FB7A4FB31D815C7000CABC1F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		FB7A4FB51D815C8000CABC1F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FB7A4FB71D815C8E00CABC1F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +74,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB7A4FB81D815C8E00CABC1F /* libc++.tbd in Frameworks */,
+				FB7A4FB61D815C8000CABC1F /* libz.tbd in Frameworks */,
+				FB7A4FB41D815C7000CABC1F /* libsqlite3.0.tbd in Frameworks */,
+				FB7A4FB21D815C5900CABC1F /* SystemConfiguration.framework in Frameworks */,
+				FB7A4FB01D815C4100CABC1F /* CoreTelephony.framework in Frameworks */,
+				FB7A4FAC1D815C1800CABC1F /* libWeChatSDK.a in Frameworks */,
 				2C8537A9C2D729881BA3824F /* libPods-Pocoo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,6 +99,11 @@
 		96E39B4080C8506949C1DFFF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FB7A4FB71D815C8E00CABC1F /* libc++.tbd */,
+				FB7A4FB51D815C8000CABC1F /* libz.tbd */,
+				FB7A4FB31D815C7000CABC1F /* libsqlite3.0.tbd */,
+				FB7A4FB11D815C5900CABC1F /* SystemConfiguration.framework */,
+				FB7A4FAF1D815C4100CABC1F /* CoreTelephony.framework */,
 				446D2C0A2849C14111D17379 /* libPods-Pocoo.a */,
 			);
 			name = Frameworks;
@@ -76,6 +130,10 @@
 		FB5CFC241D813A6B00B62608 /* Pocoo */ = {
 			isa = PBXGroup;
 			children = (
+				FB7A4FA11D81583400CABC1F /* ThirdPart */,
+				FB7A4F7F1D8148CA00CABC1F /* General */,
+				FB7A4F7E1D8148B500CABC1F /* Manager */,
+				FB7A4F7D1D81484300CABC1F /* Controllers */,
 				FB5CFC3C1D813A9800B62608 /* AppDelegate */,
 				FB5CFC251D813A6B00B62608 /* Supporting Files */,
 			);
@@ -98,8 +156,114 @@
 			children = (
 				FB5CFC281D813A6B00B62608 /* AppDelegate.h */,
 				FB5CFC291D813A6B00B62608 /* AppDelegate.m */,
+				FB7A4F801D81495A00CABC1F /* POBaseViewController.h */,
+				FB7A4F811D81495A00CABC1F /* POBaseViewController.m */,
+				FB7A4F9C1D8152D000CABC1F /* POBaseNavViewController.h */,
+				FB7A4F9D1D8152D000CABC1F /* POBaseNavViewController.m */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		FB7A4F7D1D81484300CABC1F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB7A4F931D814BC800CABC1F /* Login */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FB7A4F7E1D8148B500CABC1F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FB7A4FA41D81591000CABC1F /* UserManager */,
+				FB7A4FA21D8158F400CABC1F /* RequestManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		FB7A4F7F1D8148CA00CABC1F /* General */ = {
+			isa = PBXGroup;
+			children = (
+				FB7A4F841D8149E900CABC1F /* General.h */,
+				FB7A4F831D81497000CABC1F /* Custom */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		FB7A4F831D81497000CABC1F /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				FB7A4F861D814A5D00CABC1F /* Tools */,
+				FB7A4F851D814A0200CABC1F /* Views */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		FB7A4F851D814A0200CABC1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB7A4F8D1D814B2500CABC1F /* KLineView.h */,
+				FB7A4F8E1D814B2500CABC1F /* KLineView.m */,
+				FB7A4F8F1D814B2500CABC1F /* KSingleLineView.h */,
+				FB7A4F901D814B2500CABC1F /* KSingleLineView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FB7A4F861D814A5D00CABC1F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FB7A4F8A1D814AE400CABC1F /* OWMessageView.h */,
+				FB7A4F8B1D814AE400CABC1F /* OWMessageView.m */,
+				FB7A4F871D814A9A00CABC1F /* OWColor.h */,
+				FB7A4F881D814A9A00CABC1F /* OWColor.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		FB7A4F931D814BC800CABC1F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FB7A4F971D814C2800CABC1F /* POLoginViewController.h */,
+				FB7A4F981D814C2800CABC1F /* POLoginViewController.m */,
+				FB7A4F991D814C2800CABC1F /* POLoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FB7A4FA11D81583400CABC1F /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				FB7A4FA51D815C1800CABC1F /* Wechat */,
+			);
+			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		FB7A4FA21D8158F400CABC1F /* RequestManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestManager;
+			sourceTree = "<group>";
+		};
+		FB7A4FA41D81591000CABC1F /* UserManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserManager;
+			sourceTree = "<group>";
+		};
+		FB7A4FA51D815C1800CABC1F /* Wechat */ = {
+			isa = PBXGroup;
+			children = (
+				FB7A4FA61D815C1800CABC1F /* libWeChatSDK.a */,
+				FB7A4FA71D815C1800CABC1F /* read_me.txt */,
+				FB7A4FA81D815C1800CABC1F /* README.txt */,
+				FB7A4FA91D815C1800CABC1F /* WechatAuthSDK.h */,
+				FB7A4FAA1D815C1800CABC1F /* WXApi.h */,
+				FB7A4FAB1D815C1800CABC1F /* WXApiObject.h */,
+			);
+			path = Wechat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +327,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB5CFC321D813A6B00B62608 /* Assets.xcassets in Resources */,
+				FB7A4FAD1D815C1800CABC1F /* read_me.txt in Resources */,
+				FB7A4FAE1D815C1800CABC1F /* README.txt in Resources */,
+				FB7A4F9B1D814C2800CABC1F /* POLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +388,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB7A4F921D814B2500CABC1F /* KSingleLineView.m in Sources */,
+				FB7A4F9A1D814C2800CABC1F /* POLoginViewController.m in Sources */,
+				FB7A4F9E1D8152D000CABC1F /* POBaseNavViewController.m in Sources */,
+				FB7A4F911D814B2500CABC1F /* KLineView.m in Sources */,
 				FB5CFC2A1D813A6B00B62608 /* AppDelegate.m in Sources */,
+				FB7A4F891D814A9A00CABC1F /* OWColor.m in Sources */,
+				FB7A4F821D81495A00CABC1F /* POBaseViewController.m in Sources */,
+				FB7A4F8C1D814AE400CABC1F /* OWMessageView.m in Sources */,
 				FB5CFC271D813A6B00B62608 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +493,10 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Pocoo/PrefixHeader.pch";
 				INFOPLIST_FILE = Pocoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pocoo/ThirdPart/Wechat",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pocoo.app.Pocoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -332,6 +510,10 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Pocoo/PrefixHeader.pch";
 				INFOPLIST_FILE = Pocoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pocoo/ThirdPart/Wechat",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pocoo.app.Pocoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

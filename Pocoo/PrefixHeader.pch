@@ -8,6 +8,12 @@
 
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
+#import "General.h"
+
+//微信
+#define WEIXIN_APPKEY                 @"wxc6baca7fd30b124a"
+#define WEIXIN_APP_SECRET             @"db178a925bb88620aadf36b4fd63cc4b"
+
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.

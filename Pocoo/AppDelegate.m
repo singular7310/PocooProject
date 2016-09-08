@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "POLoginViewController.h"
+#import "POBaseNavViewController.h"
+#import <AFNetworking/AFNetworkActivityIndicatorManager.h>
+#import "WXApi.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +19,32 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
+
+    [self regsingThird];
+    POLoginViewController *login =[[POLoginViewController alloc]init];
+    POBaseNavViewController *nav =[[POBaseNavViewController alloc]initWithRootViewController:login];
+    self.window.rootViewController=nav;
+    
+    [self.window makeKeyAndVisible];
+    return YES;
+}
+
+- (void)switchRootViewController {
+    self.window.rootViewController = nil;
+    
+
+}
+
+- (void)regsingThird {
+
+    [WXApi registerApp:WEIXIN_APPKEY];
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    
+    [WXApi handleOpenURL:url delegate:self];
     return YES;
 }
 
